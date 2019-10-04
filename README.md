@@ -2,6 +2,6 @@
 
 Repository for Hacktoberfest 2019
 
-# Contributors
+### Contributors
 
 See issues!
