@@ -4,4 +4,4 @@ Repository for Hacktoberfest 2019
 
 ### Contributors
 
-Add your favorite athelete! See issues for instructions
+Add your favorite athlete! See issues for instructions
