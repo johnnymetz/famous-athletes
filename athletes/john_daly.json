@@ -1,1 +1,5 @@
-John Daly
+{
+  "name": "John Daly",
+  "age": 33,
+  "date_of_birth": "08/21/1986"
+}
