@@ -1,7 +1,7 @@
 # Famous Athletes
 
-Repository for Hacktoberfest 2019
+Repository for Hacktoberfests (2019-current)
 
 ### Contributors
 
-Add your favorite athlete! See issues for instructions
+Add your favorite athlete! See issues for instructions.
