@@ -1,0 +1,17 @@
+{
+  "title": "Athlete",
+  "type": "object",
+  "required": ["name", "height", "date_of_birth"],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "height": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "date_of_birth": {
+      "type": "date"
+    }
+  }
+}
