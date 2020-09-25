@@ -17,18 +17,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # # Runs the Super-Linter action
-      # - name: Run Super-Linter
-      #   uses: github/super-linter@v3
-      #   env:
-      #     DEFAULT_BRANCH: master
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     VALIDATE_EDITORCONFIG: false
-
-      # Runs the Validate JSON schema action
-      - name: Validate JSON
-        uses: snapcart/json-schema-validator@v1.0.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          json_schema: ./schema.json
-          json_path_pattern: .\/athletes\/.*.json
+      # Runs the Super-Linter action
+      - name: Run Super-Linter
+        uses: github/super-linter@v3
+        env:
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_EDITORCONFIG: false
