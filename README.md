@@ -10,26 +10,25 @@ Use the CLI tool. No external python packages are required (only the standard li
 
 ```bash
 $ python cli.py
-LeBron James is 6'9" and 35 years old.
+# LeBron James is 6'9" and 35 years old.
 
-# run again
+# Run again
 $ python cli.py
-Tiger Woods is 6'1" and 44 years old.
+# Tiger Woods is 6'1" and 44 years old.
 
-# run with the -s or --search flag to search by name (case-insensitive)
+# Run with the -s or --search flag to search by name (case-insensitive)
 $ python cli.py --search patrick
-Patrick Mahomes is 6'3" and 25 years old.
+# Patrick Mahomes is 6'3" and 25 years old.
 
-# run with the -q or --quiet flag to print only the name
+# Run with the -q or --quiet flag to print only the name
 $ python cli.py --quiet
-Rodger Federer
+# Rodger Federer
 
-# run with the -v or --verbose flag to print additional metadata (e.g. total athletes, errors
-)
+# Run with the -v or --verbose flag to print additional metadata (e.g. total athletes, errors)
 $ python cli.py --verbose
-Successfully loaded 30 athletes.
-
-Chloe Kim is 5'3" and 20 years old.
+# Successfully loaded 30 athletes.
+#
+# Chloe Kim is 5'3" and 20 years old.
 ```
 
 ## Contributors
