@@ -8,7 +8,7 @@ Generate a random famous athlete for trivia!
 
 Use the CLI tool. No external python packages are required (only the standard library is used) so the tool is ready to go right out of the box. The only requirement is Python 3.
 
-```
+```bash
 $ python cli.py
 LeBron James is 6'9" and 35 years old.
 
