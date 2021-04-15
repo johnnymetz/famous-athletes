@@ -14,6 +14,7 @@ jobs:
       DAY_OF_WEEK: Mon
     steps:
       - run: echo "I love ${{ env.DAY_OF_WEEK }}!"
+      - run: echo "Even more so, I love ${{ secrets.ARTIST }}!"
       - run: echo "👋 Hello ${{ github.event.inputs.name }}"
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
