@@ -2,6 +2,9 @@ exclude: '.git'
 default_stages: [commit]
 fail_fast: false
 
+ci:
+  autofix_prs: false
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.0.1
