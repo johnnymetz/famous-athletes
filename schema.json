@@ -11,7 +11,8 @@
       "minimum": 0
     },
     "date_of_birth": {
-      "type": "date"
+      "type": "string",
+      "format": "date"
     }
   }
 }
