@@ -5,7 +5,7 @@ from helpers import get_random_athlete
 
 def get_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Get a random athlete")
-    parser.add_argument("-s", "--search", help="Search by name")
+    parser.add_argument('-s', "--search", help="Search by name")
     group = parser.add_mutually_exclusive_group()
     group.add_argument("-q", "--quiet", action="store_true", help="print quiet")
     group.add_argument("-v", "--verbose", action="store_true", help="print verbose")
