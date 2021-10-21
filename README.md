@@ -33,4 +33,12 @@ $ python cli.py --verbose
 
 ## Contributors
 
-Add your favorite athlete! See issues for instructions. Linter must pass successfully before code can be merged in.
+Add your favorite athlete! See issues for instructions.
+
+Linter must pass successfully before code can be merged in. The linter is run as a GitHub action. It can also be run locally using pre-commit:
+
+```bash
+pre-commit install
+```
+
+Now pre-commit will check your code on every commit.
