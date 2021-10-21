@@ -2,7 +2,7 @@
 Need to pip install jsonschema to run this.
 """
 
-import json
+# import json
 
 from jsonschema import FormatChecker, validate
 
