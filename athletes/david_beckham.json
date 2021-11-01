@@ -1,5 +1,5 @@
 {
-   "name": "David Beckham",
-   "height": 71,
-   "date_of_birth": "05/02/1975"
- }
+  "name": "David Beckham",
+  "height": 71,
+  "date_of_birth": "1975-05-02"
+}
