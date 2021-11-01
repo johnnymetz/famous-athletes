@@ -38,6 +38,7 @@ Add your favorite athlete! See issues for instructions.
 Linter must pass successfully before code can be merged in. The linter is run as a GitHub action. It can also be run locally using pre-commit:
 
 ```bash
+brew install pre-commit
 pre-commit install
 ```
 
