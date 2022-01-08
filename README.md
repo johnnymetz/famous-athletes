@@ -6,7 +6,7 @@ Generate a random famous athlete for trivia!
 
 ## Quickstart
 
-Use the CLI tool. No external python packages are required (only the standard library is used) so the tool is ready to go right out of the box. The only requirement is Python 3.
+Use the command-line tool. No external python packages are required (only the standard library is used) so the tool is ready to go right out of the box. The only requirement is Python 3.
 
 ```bash
 $ python cli.py
