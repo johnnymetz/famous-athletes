@@ -14,7 +14,7 @@ repos:
       - id: check-json
 
   - repo: https://github.com/sirosen/check-jsonschema
-    rev: 0.10.0
+    rev: 0.10.1
     hooks:
       - id: check-jsonschema
         name: Check athletes jsonschema
@@ -22,7 +22,7 @@ repos:
         args: ['--schemafile', 'schema.json']
 
   - repo: https://github.com/psf/black
-    rev: 21.12b0
+    rev: 22.1.0
     hooks:
       - id: black
 
