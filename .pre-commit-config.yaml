@@ -14,7 +14,7 @@ repos:
       - id: check-json
 
   - repo: https://github.com/sirosen/check-jsonschema
-    rev: 0.16.2
+    rev: 0.18.3
     hooks:
       - id: check-jsonschema
         name: Check athletes jsonschema
@@ -22,7 +22,7 @@ repos:
         args: ['--schemafile', 'schema.json']
 
   - repo: https://github.com/psf/black
-    rev: 22.3.0
+    rev: 22.8.0
     hooks:
       - id: black
 
@@ -32,6 +32,6 @@ repos:
       - id: isort
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: 'v0.961'
+    rev: 'v0.971'
     hooks:
       - id: mypy
