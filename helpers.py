@@ -1,6 +1,6 @@
-import datetime
 import json
 import random
+from datetime import datetime
 from pathlib import Path
 from typing import List
 
@@ -17,8 +17,8 @@ def get_athletes(directory: str, verbose: bool = False) -> List[Athlete]:
                     Athlete(
                         name=data["name"],
                         height=data["height"],
-                        date_of_birth=datetime.datetime.strptime(
-                            data["date_of_birth"], "%m/%d/%Y"
+                        date_of_birth=datetime.strptime(
+                            data["date_of_birth"], "%Y-%m-%d"
                         ),
                     )
                 )
