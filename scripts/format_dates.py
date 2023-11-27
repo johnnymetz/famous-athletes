@@ -9,7 +9,6 @@ OLD_DATE_FORMAT = "%m/%d/%Y"
 NEW_DATE_FORMAT = "%Y-%m-%d"
 
 for file in sorted(files):
-
     # open with read and write privileges
     with open(file, "r+") as f:
         data = json.load(f)
